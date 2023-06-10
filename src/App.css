@@ -51,8 +51,7 @@ input[type="text"] {
 
 .row {
   display: flex;
-  justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 .first{
   border-top-left-radius: 10px;
@@ -64,13 +63,13 @@ input[type="text"] {
 }
 .custom-btn {
   margin: 10px;
-  width: 130px;
+  width: 100px;
   height: 40px;
   color: #fff;
   border-radius: 19px;
   padding: 10px 25px;
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -106,4 +105,22 @@ input[type="text"] {
   background: #004cfc;
   background: linear-gradient(0deg, #0040ff 0%, #ff00b3 100%);
   border: none;
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 75vh;
+    width: 75%;
+}
+
+.container .row button {
+    padding: 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+.equal{
+  padding: 0px 60px;
+  font-size: 30px;
+}
 }
