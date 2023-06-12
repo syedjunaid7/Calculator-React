@@ -11,6 +11,10 @@
   font-family: 'Poppins', sans-serif;
   font-family: 'Space Grotesk', sans-serif;
 }
+.brand{
+  margin-bottom: 10px;
+  font-weight: 900;
+}
 .App{
   display: flex;
   flex-direction: column;
@@ -120,7 +124,7 @@ input[type="text"] {
     box-sizing: border-box;
 }
 .equal{
-  padding: 0px 60px;
+  width: 60%;
   font-size: 30px;
 }
 }

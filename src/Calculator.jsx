@@ -39,6 +39,7 @@ export default function Calculator() {
   
   return (
     <div className="container">
+    <h5 className="brand">CASHIO</h5>
       <input type="text" value={display} readOnly />
       <div className="row first">
         <button className="custom-btn btn-2" onClick={() => keyPress('AC')}>AC</button>
